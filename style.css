@@ -376,7 +376,7 @@ button, input, select, textarea {
 /* Hero Section */
 .hero-section {
     position: relative;
-    background: radial-gradient(circle at 10% 20%, rgba(15, 23, 42, 0.95) 0%, rgba(9, 13, 22, 0.99) 90%), url('http://www.imystudy.com/neorix/img_set/main_20260610011949.jpg');
+    background: radial-gradient(circle at 10% 20%, rgba(15, 23, 42, 0.95) 0%, rgba(9, 13, 22, 0.99) 90%), url('images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     color: var(--text-primary);
@@ -1736,9 +1736,11 @@ button, input, select, textarea {
     .desktop-only {
         display: none !important;
     }
-    
+    .desktop-nav {
+        display: none !important;
+    }
     .mobile-menu-btn {
-        display: flex;
+        display: flex !important;
     }
     
     .stats-grid {
